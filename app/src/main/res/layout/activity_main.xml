@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="a67yjh00.com.example.lg.simplecalculator.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="단순 계산기"
+         />
+    <EditText
+        android:id="@+id/edit_first"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:hint="정수로 입력"
+        />
+    <EditText
+        android:id="@+id/edit_second"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:hint="정수로 입력"
+        />
+    <Button
+        android:id="@+id/but_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        />
+    <Button
+        android:id="@+id/but_minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        />
+    <Button
+        android:id="@+id/but_multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        />
+    <Button
+        android:id="@+id/but_division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#5100ad"
+        />
+</LinearLayout>
