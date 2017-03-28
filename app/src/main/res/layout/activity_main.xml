@@ -16,13 +16,13 @@
          />
     <EditText
         android:id="@+id/edit_first"
-        android:layout_width="50dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:hint="정수로 입력"
         />
     <EditText
         android:id="@+id/edit_second"
-        android:layout_width="50dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:hint="정수로 입력"
         />
@@ -30,27 +30,28 @@
         android:id="@+id/but_plus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+"
+        android:text="더하기"
         />
     <Button
         android:id="@+id/but_minus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="-"
+        android:text="빼기"
         />
     <Button
         android:id="@+id/but_multiply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="X"
+        android:text="곱하기"
         />
     <Button
         android:id="@+id/but_division"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="/"
+        android:text="나누기"
         />
     <TextView
+        android:id="@+id/text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
